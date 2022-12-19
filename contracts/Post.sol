@@ -15,7 +15,7 @@ contract Post {
         string memory _tag,
         string memory _timestamp,
         string memory _content
-    ) public {
+    ) {
         postTitle = _title;
         author = _author;
         tag = _tag;
